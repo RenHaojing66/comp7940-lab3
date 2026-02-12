@@ -1,7 +1,7 @@
 import requests
 import configparser
 import sys
-import traceback  # 新增：导入错误追踪模块
+import traceback 
 
 
 class ChatGPT:
