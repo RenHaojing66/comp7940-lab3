@@ -41,6 +41,7 @@ def main():
     logging.info('初始化：完成！')
     app.run_polling()
 
+# ========== 替换：原回声逻辑→调用ChatGPT的智能回复逻辑 ==========
 async def callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
     logging.info("UPDATE: " + str(update))
     # 先发送“思考中”提示
